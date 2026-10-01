@@ -1,0 +1,16 @@
+# secrets
+arduino/**/arduino_secrets.h
+*.env
+# model weights / datasets (see Releases)
+*.pt
+*.safetensors
+*.bin
+RAVDESS*/
+*.wav
+*.zip
+# python / latex build
+__pycache__/
+*.pyc
+*.aux *.bbl *.blg *.log *.out *.fls *.fdb_latexmk *.synctex.gz
+paper/preview.*
+.ipynb_checkpoints/

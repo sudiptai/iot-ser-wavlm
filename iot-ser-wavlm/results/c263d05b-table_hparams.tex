@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\caption{Optuna search space and selected values.}
+\label{tab:hparams}
+\begin{tabular}{lll}
+\toprule
+Hyper-parameter & Search space & Selected \\
+\midrule
+backbone & \{WavLM-base+, wav2vec2-base, HuBERT-base\} & microsoft/wavlm-base-plus \\
+pooling & \{attentive, mean\} & mean \\
+layer\_weighting & \{on, off\} & False \\
+n\_freeze & \{0,2,\dots,8\} & 4 \\
+dropout & [0.05, 0.4] & 0.123 \\
+lr & [5e-6, 1e-4] (log) & 7.31e-05 \\
+head\_lr\_mult & \{1,5,10,20\} & 1 \\
+warmup & [0, 0.2] & 0.0622 \\
+label\_smoothing & [0, 0.15] & 0.0654 \\
+mixup & \{0, 0.2, 0.4\} & 0.2 \\
+batch\_size & \{4, 8\} & 4 \\
+aug\_timemask & [0, 0.2] & 0.0243 \\
+aug\_speed & [0, 0.15] & 0.134 \\
+\bottomrule
+\end{tabular}
+\end{table}

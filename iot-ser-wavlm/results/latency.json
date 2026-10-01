@@ -1,0 +1,6 @@
+{
+  "Audio capture (3 s)": 3000,
+  "Inference (Tesla T4)": 6.548866828282675,
+  "Cloud publish (REST)": 65.15729427337646,
+  "Cloud \u2192 UNO R4 LCD": 2447.014331817627
+}

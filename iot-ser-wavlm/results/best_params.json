@@ -1,0 +1,15 @@
+{
+  "backbone": "microsoft/wavlm-base-plus",
+  "pooling": "mean",
+  "layer_weighting": false,
+  "n_freeze": 4,
+  "dropout": 0.12347012689185709,
+  "lr": 7.313499674735954e-05,
+  "head_lr_mult": 1.0,
+  "warmup": 0.062202550697640496,
+  "label_smoothing": 0.06536045333994442,
+  "mixup": 0.2,
+  "batch_size": 4,
+  "aug_timemask": 0.024283904697500226,
+  "aug_speed": 0.13355760898989974
+}

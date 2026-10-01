@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Ablation on the same speaker-independent folds (mean, \%).}
+\label{tab:ablation}
+\begin{tabular}{lccc}
+\toprule
+Configuration & Accuracy & UAR & Macro-F1 \\
+\midrule
+MFCC + SVM & 47.92 & 46.88 & 47.39 \\
+Best backbone, mean pool, no LW & 78.47 & 77.39 & 77.44 \\
+wav2vec2-base, best recipe & 75.77 & 74.97 & 74.46 \\
+Proposed (Optuna-tuned) & 78.47 & 77.39 & 77.44 \\
+\bottomrule
+\end{tabular}
+\end{table}
